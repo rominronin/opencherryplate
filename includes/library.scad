@@ -7,13 +7,6 @@ $fn = 256;
 $fs = 1;
 
 /**
- * Wrist rest:
- **/
-module rest(){
-    scale([160,65,1]) surface(file = "surface.dat", convexity = 5);
-}
-
-/**
  * Variables.
  **/
 
